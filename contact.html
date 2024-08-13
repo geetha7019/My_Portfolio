@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <marquee>Contact me : Geethachowdary62003@gmail.com</marquee>
+    <style>        
+        body {
+            background-color: #eae6e875;            
+            background-image: url('skyblue.jpg'); 
+            background-size: cover; 
+            background-repeat:repeat; 
+        }
+    </style>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+                <section id="contact" class="background-contact">
+                <h2>Contact Me</h2>
+                <p>Fill out the form below to get in touch with me.</p>
+                <form action="submit_form.php" method="post" class="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 KRISHNA GEETHA P</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

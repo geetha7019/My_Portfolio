@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: rgb(85, 16, 245);
+  background-color: #f4f4f4;
+  background-image: url('skyblue.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed; 
+  background-repeat: no-repeat; 
+  margin: 0; 
+  padding: 0; 
+  font-family: Arial, sans-serif; 
+}
+header {
+  background: rgb(11, 11, 231);
+  color: rgb(15, 227, 191);
+  padding: 10px 0;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: rgb(15, 227, 191);
+  text-decoration: none;
+}
+main {
+  padding: 20px;
+  text-align: center;
+}
+a:hover {
+  color: #fff; 
+  background-color: rgb(14, 13, 13); 
+  border-radius: 5px; 
+  padding: 5px 10px; 
+}
+footer {
+  background: rgb(11, 11, 231);
+  color: rgb(15, 227, 191);
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
